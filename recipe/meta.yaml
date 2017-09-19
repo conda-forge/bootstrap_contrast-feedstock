@@ -1,6 +1,6 @@
 {% set name = "bootstrap_contrast" %}
-{% set version = "0.324.1" %}
-{% set sha256 = "4188edbb09b4acc82bac01bafe71a59becf0e63b699c09afdcb5594d52e3570f" %}
+{% set version = "0.325.1" %}
+{% set sha256 = "e10846460ebd0ead4d86981dd991fadf0227a61a5875e22490fba4dd8421af10" %}
 
 package:
   name: {{ name }}
@@ -12,7 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  noarch: python
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
