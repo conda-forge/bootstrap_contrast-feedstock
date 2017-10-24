@@ -1,6 +1,6 @@
 {% set name = "bootstrap_contrast" %}
-{% set version = "0.327" %}
-{% set sha256 = "fd2ec9c2170c2b84ce49a0520c1b3527c6e4aa8fbec653f9c271ffb56be4790f" %}
+{% set version = "0.328" %}
+{% set sha256 = "81a9b09559ba0d7ee2c47ac5dd4a6a30b19adbed7a79c200a830dd1af1f66887" %}
 
 package:
   name: {{ name }}
